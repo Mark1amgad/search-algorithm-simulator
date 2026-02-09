@@ -108,9 +108,10 @@ Note: There is also an `app.py` in the repository root, used as an entry point i
 
 This project was developed as a team assignment for the **AIE111 Artificial Intelligence** course.
 
+- Mark Amgad
 - Khaled Amr  
 - Hossam Ahmed  
 - Abdulrahman Edris  
 - Abdalhalem Waleed  
 - Ibrahim Abdrabo  
-- Mark Amgad
+
