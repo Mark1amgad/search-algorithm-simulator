@@ -41,3 +41,63 @@ Projects/
   IDS.py        # Iterative Deepening Search implementation
   UCS.py        # Uniform Cost Search implementation
   GREEDY.py     # Greedy Best-First Search implementation
+Note: There is also an app.py in the root directory, used as an entry point in some environments.
+
+How to Run
+1. Clone the repository
+bash
+git clone https://github.com/Mark1amgad/search-algorithm-simulator.git
+cd search-algorithm-simulator/Projects
+2. (Optional) Create a virtual environment
+bash
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# Linux/Mac
+source .venv/bin/activate
+3. Install dependencies
+bash
+pip install streamlit
+4. Start the app
+bash
+streamlit run app.py
+Open the local URL shown in the terminal (usually http://localhost:8501) in your browser.
+
+Usage
+Choose an algorithm from the sidebar (BFS, DFS, DLS, IDS, UCS, Greedy Best-First).
+
+Set the Goal Node (integer within the graph range, e.g., 0–100).
+
+For DLS, set the Maximum Depth parameter.
+
+Click Run Algorithm to execute the search and view:
+
+Whether the goal was found.
+
+The traversal path (order of visited nodes).
+
+Basic metrics (nodes visited, depth for IDS) and a tree-style visualization.
+
+Educational Objectives
+Practice implementing classical AI search algorithms in Python.
+
+Understand the differences between uninformed and informed search.
+
+Observe how search strategy affects exploration order, performance, and solution depth.
+
+Provide an interactive tool for students to experiment with and compare search algorithms.
+
+Contributors
+This project was developed as a team assignment for the AIE111 Artificial Intelligence course:
+
+Khaled Amr
+
+Hossam Ahmed
+
+Abdulrahman Edris
+
+Abdalhalem Waleed
+
+Ibrahim Abdrabo
+
+Mark Amgad
